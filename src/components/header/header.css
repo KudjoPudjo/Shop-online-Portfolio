@@ -1,0 +1,116 @@
+.header {
+    width: 100vw;
+    background-color: #2c2b2b;
+    min-height: 100px;
+    position: relative;
+}
+
+.header-wrp {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Logo */
+
+.header-logo {
+    width: 15%;
+    position: relative;
+    cursor: pointer;
+}
+
+.abs-logo {
+    position: absolute;
+    width: 50%;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.pink-logo {
+    background-color: #FD86B6;
+    left: 0;
+}
+
+.gray-logo {
+    background-color: #B9B9B9;
+    right: 0;
+}
+
+.name-ste {
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #1f1e1e;
+}
+
+.d {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+}
+
+
+/* Navigation bar */
+
+.nav-bar {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-wrp {
+    width: 60%;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-item {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #e5cfe7;
+    cursor: pointer;
+}
+
+.nav-cart {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-cart-t {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #e5cfe7;
+    margin-left: 20px;
+}
+
+.nav-cart-icon {
+    width: 25px;
+    fill: #e5cfe7;
+}
+
+.nav-lnk-wrp {
+    position: relative;
+}
+
+.cart-count {
+    width: 20px;
+    position: absolute;
+    top: -20px;
+    right: -10px;
+    background-color: #e5cfe7;
+    border-radius: 50%
+}
+.count{
+    color:#2C2B2B;
+    text-align: center;
+    font-size: 0.9rem;
+    text-decoration: none;
+}

@@ -1,0 +1,26 @@
+.cart-page-bar{
+    min-height: 400px;
+}
+.cart-page-wrp{
+    width:60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 100px;
+}
+.item-bar{
+    width:75%;    
+}
+.cart-wrp{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-bottom: 50px;
+}
+.total-price{
+    color: #302f30;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.wrp{
+    flex-wrap: wrap;
+}

@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+.App{
+  min-height: calc(100vh - 80px); 
+}
+.Wrap-Main{
+  min-height: calc(100vh - 25vh);
+}
+.centred{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.route-lnk{
+  text-decoration: none;
+}
+
+

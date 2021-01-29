@@ -1,0 +1,35 @@
+.filter-bar{
+    position: absolute;
+    width: 50vw;
+    left: 25vw;    
+    top: 100%;
+    z-index: 1;
+    background-color:#7c6f85f0;
+}
+.filter-wrp{
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+.photo-bar{
+    width:80%; 
+    border-right: 1px solid black;  
+}
+.photo-wrp{
+    width:60%;    
+}
+.photo{
+    width: 90%;
+    height: 240px;
+}
+/* filter nav */
+.filter-nav-wrp{
+    width:80%
+}
+.filter-nav-item{
+    display: block;
+    color:  #e5cfe7;
+    font-size: 1.5rem;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-shadow: 2px 0 0 #000000, -2px 0 0 #000000, 0 2px 0 #000000, 0 -2px 0 #000000, 1px 1px #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000;
+}
